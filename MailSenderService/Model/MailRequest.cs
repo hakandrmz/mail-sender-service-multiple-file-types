@@ -11,6 +11,6 @@ namespace MailSenderService.Model
         public List<string> ToEmail { get; set; }
         public string Subject { get; set; }
         public string Body { get; set; }
-        public List<string> PdfUrls { get; set; }
+        public List<string> FileUrls { get; set; }
     }
 }
